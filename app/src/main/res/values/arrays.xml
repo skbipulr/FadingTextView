@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="textDemo">
+        <item>আন্তরা</item>
+        <item>আমি</item>
+        <item>তোমাকে</item>
+        <item>অনেক</item>
+        <item>ভালবাসি</item>
+    </string-array>
+</resources>

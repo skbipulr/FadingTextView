@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#E6E6E6"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/finingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_centerInParent="true"
+            android:background="#004d40"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:texts="@array/textDemo"
+            app:timeout="1000" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
